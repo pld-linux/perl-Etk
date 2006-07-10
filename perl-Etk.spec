@@ -7,6 +7,7 @@
 
 %define		_pkgname	etk-perl
 Summary:	Perl extention to Etk
+Summary(pl):	Rozszerzenie Perla dla Etk
 Name:		perl-Etk
 Version:	0.01
 %define		_snap	20060706
@@ -24,6 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Perl extention to Etk.
+
+%description -l pl
+Rozszerzenie Perla dla Etk.
 
 %prep
 %setup -q -n %{_pkgname}
