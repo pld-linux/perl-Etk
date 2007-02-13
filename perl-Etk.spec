@@ -7,7 +7,7 @@
 
 %define		_pkgname	etk-perl
 Summary:	Perl extention to Etk
-Summary(pl.UTF-8):   Rozszerzenie Perla dla Etk
+Summary(pl.UTF-8):	Rozszerzenie Perla dla Etk
 Name:		perl-Etk
 Version:	0.01
 %define		_snap	20060706
