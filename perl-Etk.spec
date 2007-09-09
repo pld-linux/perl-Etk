@@ -17,7 +17,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://sparky.homelinux.org/snaps/enli/e17/proto/%{_pkgname}-%{_snap}.tar.bz2
 # Source0-md5:	91b0ea2d43c5827184c45a8d8e4db170
-URL:		http://enlightenment.org/
+URL:		http://search.cpan.org/dist/Etk-Perl/
 BuildRequires:	etk-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
