@@ -63,7 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Etk.pm
 %{perl_vendorarch}/Etk
 %dir %{perl_vendorarch}/auto/Etk
-%{perl_vendorarch}/auto/Etk/Etk.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Etk/Etk.so
 %{_mandir}/man3/Etk*.3*
 %{_examplesdir}/%{name}-%{version}
