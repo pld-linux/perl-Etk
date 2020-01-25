@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (fails for now)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Etk
 Summary:	Perl bindings for the Enlightened ToolKit (Etk)
 Summary(pl.UTF-8):	Wiązanie Perla do ETK - toolkitu Enlightenmenta
