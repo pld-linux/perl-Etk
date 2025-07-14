@@ -33,7 +33,7 @@ funkcje (choć nie jest to zalecane).
 
 %prep
 %setup -q -n Etk-Perl-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
